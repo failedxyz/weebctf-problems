@@ -1,3 +1,5 @@
+set -e
+
 echo "Preparing Docker..."
 docker stop $(docker ps --filter "ancestor=kirito" -q)
 docker rm $(docker ps -q -f status=exited)
