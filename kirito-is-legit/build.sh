@@ -4,7 +4,7 @@ echo "Preparing Docker..."
 docker stop $(docker ps --filter "ancestor=kirito" -q)
 docker rm $(docker ps -q -f status=exited)
 
-echo "Building container for 'Kirito is Legit'..."
+echo "Building container for 'Kirito is Legit' from $DIRECTORY..."
 docker build -t kirito $DIRECTORY
 
 echo "Running the container..."
