@@ -1,4 +1,6 @@
 set -e
+echo $DIRECTORY
+exit 0
 
 echo "Preparing Docker..."
 docker stop $(docker ps --filter "ancestor=kirito" -q)
