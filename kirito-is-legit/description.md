@@ -1,0 +1,1 @@
+Is Kirito [legit](http://kirito.weebctf.easyctf.com/)?
