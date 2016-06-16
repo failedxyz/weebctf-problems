@@ -1,5 +1,5 @@
 DIRECTORY=/home/weebctf/weebctf-problems/kirito-is-legit
-set -e
+# set -e
 
 echo "Preparing Docker..."
 docker stop $(docker ps --filter "ancestor=kirito" -q)
