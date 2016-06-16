@@ -1,10 +1,3 @@
-<?php
-include("flag.php"); // import $flag
-if (isset($_POST["legit"]) && $_POST["legit"] === "is-legit") {
-	echo "<!-- flag is $flag -->";
-}
-?>
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -22,7 +15,12 @@ if (isset($_POST["legit"]) && $_POST["legit"] === "is-legit") {
 				<p><input type="submit"></p>
 			</form>
 		</center>
+		<script>/* source at /source.php */</script>
+<?php
+include("flag.php"); // import $flag
+if (isset($_POST["legit"]) && $_POST["legit"] === "is-legit") {
+	echo "<script>/* flag is $flag */</script>";
+}
+?>
 	</body>
 </html>
-
-<!-- source at /source.php -->
