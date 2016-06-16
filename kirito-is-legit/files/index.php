@@ -19,7 +19,8 @@ if (isset($_POST["legit"]) && $_POST["legit"] === "is-legit") {
 					<option value="not-legit">not</option>
 				</select>
 				legit.
-			</p>
+				<p><input type="submit"></p>
+			</form>
 		</center>
 	</body>
 </html>

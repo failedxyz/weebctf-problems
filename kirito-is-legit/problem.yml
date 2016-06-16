@@ -2,5 +2,4 @@ title: Kirito is Legit
 author: mzhang
 category: Web
 value: 40
-web:
-  - port: 6002
+web: true
