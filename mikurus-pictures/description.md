@@ -1,3 +1,3 @@
-Mikuru finally discovered that secret stash of pictures on the desktop of the SOS's computer! But she's not very skilled with a computer, and aside from making a ton of mistakes while she was typing, she ended up downloading a keylogger as she was using it. It seems that she entered her PASSWORD into the keylog about 4 times.
+Mikuru finally discovered that secret stash of pictures that Kyon hid on the desktop of the SOS's computer! Unforunately, she's not very skilled with a computer, so aside from making a ton of mistakes while she was typing, she ended up downloading a keylogger as she was using it. It seems that she entered her PASSWORD into the keylog about 4 times.
 
 Luckily, Yuki discovered the [log file](files/mikurus-pictures/log.txt), which seems to be a hex-encoded output of her keystrokes. Can you find Mikuru's password?

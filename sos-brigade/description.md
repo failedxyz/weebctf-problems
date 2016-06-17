@@ -1,0 +1,1 @@
+It has been discovered that a small discrepancy in [this logo](files/sos-brigade/sos_logo.png) has awakened a technological monster that has infected the minds of millions.
