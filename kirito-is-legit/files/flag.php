@@ -1,3 +1,3 @@
 <?php
-$flag = "tfw_this_is_an_osu_meme";
+$flag = "tfw_kirito_is_an_osu_meme";
 ?>
