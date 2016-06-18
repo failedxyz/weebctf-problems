@@ -1,0 +1,7 @@
+title: ngnl
+author: defund
+category: Forensics
+value: 1
+hint: no!
+files:
+  - corrupted
