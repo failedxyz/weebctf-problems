@@ -1,7 +1,7 @@
 title: ngnl
 author: defund
 category: Forensics
-value: 100
+value: 80
 hint: no!
 files:
   - corrupted
