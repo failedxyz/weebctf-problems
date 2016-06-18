@@ -1,4 +1,4 @@
-flag = "This_Game"
+flag = "no_different_than_tic_tac_toe"
 
 def grade(autogen, candidate):
 	if candidate.find(flag) >= 0:
