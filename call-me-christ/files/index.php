@@ -32,6 +32,7 @@
 				left: 50%;
 				top: 50%;
 				transform: translateX(-50%) translateY(-50%);
+				text-align: center;
 			}
 			input[name=password] {
 				border: 0;
@@ -46,6 +47,8 @@
 			<form method="POST">
 				<input type="hidden" name="token" value="<?php echo bin2hex(openssl_random_pseudo_bytes(128)); ?>" />
 				<input type="password" name="password" placeholder="Password" autofocus />
+				<br />
+				<small><a href="/source.php">source</a></small>
 			</form>
 		</div>
 	</body>
