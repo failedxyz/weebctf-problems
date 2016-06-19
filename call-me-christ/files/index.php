@@ -23,23 +23,29 @@
 		<title>Angel Player</title>
 		<style>
 			body {
-				background-image: url(angel-player.png);
+				background-image: url(angel-player.jpg);
 				background-size: cover;
-				background-position: center;
+				background-repeat: no-repeat;
 			}
 			#panel {
 				position: absolute;
-				left: 0;
-				top: 0;
+				left: 50%;
+				top: 50%;
 				transform: translateX(-50%) translateY(-50%);
+			}
+			input[name=password] {
+				border: 0;
+				outline: 0;
+				padding: 16px;
+				font-size: 15pt;
 			}
 		</style>
 	</head>
 	<body>
 		<div id="panel">
 			<form method="POST">
-				<input type="hidden" name="token" value="<?php echo md5(random_bytes(128)); ?>" />
-				<input type="password" name="password" placeholder="Password" />
+				<input type="hidden" name="token" value="<?php echo md5(openssl_random_pseudo_bytes(128)); ?>" />
+				<input type="password" name="password" placeholder="Password" autofocus />
 			</form>
 		</div>
 	</body>
