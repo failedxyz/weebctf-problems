@@ -38,7 +38,7 @@
 	<body>
 		<div id="panel">
 			<form method="POST">
-				<input type="hidden" name="token" value="<?php md5(random_bytes(128)); ?>" />
+				<input type="hidden" name="token" value="<?php echo md5(random_bytes(128)); ?>" />
 				<input type="password" name="password" placeholder="Password" />
 			</form>
 		</div>
