@@ -5,8 +5,8 @@
 		if ($_POST["token"] === $_POST["password"]) {
 			die("Your token must not match your password.");
 		}
-		$salted_token = $padded . $_POST["token"];
-		$salted_password = $padded . $_POST["password"];
+		$salted_token = $padded . hex2bin($_POST["token"]);
+		$salted_password = $padded . hex2bin($_POST["password"]);
 		if (md5($salted_token) !== md5($salted_password)) {
 			die("Wrong password.");
 		}
@@ -44,7 +44,7 @@
 	<body>
 		<div id="panel">
 			<form method="POST">
-				<input type="hidden" name="token" value="<?php echo md5(openssl_random_pseudo_bytes(128)); ?>" />
+				<input type="hidden" name="token" value="<?php echo bin2hex(openssl_random_pseudo_bytes(128)); ?>" />
 				<input type="password" name="password" placeholder="Password" autofocus />
 			</form>
 		</div>
