@@ -14,6 +14,7 @@
 		<h1>Congratulations!</h1>
 		<p>The flag is <?php echo $flag; ?></p>
 		<?php
+		die();
 	}
 ?>
 
