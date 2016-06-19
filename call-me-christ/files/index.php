@@ -1,6 +1,7 @@
 <?php
 	include("flag.php"); // import $flag
 	if (isset($_POST["token"]) && isset($_POST["password"])) {
+		echo md5($flag); // debug
 		$padded = $flag . str_repeat("\x00", 64 - strlen($flag));
 		if ($_POST["token"] === $_POST["password"]) {
 			die("Your token must not match your password.");
