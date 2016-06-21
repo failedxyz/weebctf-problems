@@ -1,1 +1,1 @@
-Chika likes μ's so much that she somehow transformed her flag into [this](files/base/μ's.txt)! Help her recover the flag.
+Chika likes μ's so much that she somehow transformed her flag into [this](files/base-kyuu/img/u's.txt)! Help her recover the flag.
