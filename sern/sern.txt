@@ -9,7 +9,7 @@ an operation is done for each char where the char is the first parameter and the
 
 you can either reverse the method or bash pairs of letters
 
-here, the reverse solution, which is faster:
+here is the reverse solution, which is faster:
 
 def swap(c):
     if c == '0':
