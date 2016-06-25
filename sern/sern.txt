@@ -135,4 +135,4 @@ qpsrutwvyxz
 
 searching ‘steins gate bananas’ will yield a top result with ‘floppy’ in the title, which is the last word in the flag
 
-weeb{bananas_ARE_floppy
+weeb{bananas_ARE_floppy}
