@@ -1,4 +1,6 @@
-given (AB) and (A+B), xor files:
+Solution:
+
+given (AB) and (A+B), where A is image data and B is key, xor files:
 
 (AB) x (A+B)
 (AB)~(A+B) + ~(AB)(A+B)
