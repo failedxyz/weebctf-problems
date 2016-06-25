@@ -1,0 +1,5 @@
+use ffmpeg to convert YUV file to another video format:
+
+ffmpeg -f rawvideo -s:v 2200x944 -r 25 -i 2200x944.yuv out.mov
+
+weeb{Wh_It_Eb_Ox}
