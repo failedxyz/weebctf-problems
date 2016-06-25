@@ -1,3 +1,5 @@
+Solution:
+
 Delete the last 4 bytes, the Adler-32 checksum of a zlib stream, in order to get a truncated data stream
 
 use python decompressobj object from zlib module, which can decompress a truncated stream:
