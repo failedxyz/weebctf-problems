@@ -1,3 +1,5 @@
+Solution:
+
 The decompiled code shows that each character is paired with it’s mirror character, like this:
 
 in ’abcde’:
