@@ -2,6 +2,6 @@ title: musashino
 author: defund
 category: Forensics
 value: 20
-hint: the data is truncated, but that shouldn’t be a problem
+hint: no!
 files:
   - episode
