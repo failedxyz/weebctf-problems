@@ -1,3 +1,5 @@
+Solution:
+
 dehjdqddeazhmbk_f_zllwnmxgnm_c{sn}
 
 here are the counts of ‘1’ for each char:
@@ -78,6 +80,8 @@ f = open('result.txt','w')
 f.write(o)
 f.close()
 
-There will be a ton of potential flags, but all are gibberish. Use an online caesar cipher decoder to determine that you must shift forward by 1. The flag will be the only one that makes sense:
+There will be a ton of potential flags, but all are gibberish. 
+Use an online caesar cipher decoder to determine that you must shift forward by 1. 
+The flag will be the only one that makes sense:
 
 weeb{only_eight_bakemono_remained}
