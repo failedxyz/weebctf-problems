@@ -1,0 +1,83 @@
+dehjdqddeazhmbk_f_zllwnmxgnm_c{sn}
+
+here are the counts of ‘1’ for each char:
+
+2323232232424245354335443444535445
+
+now to determine the counts of ‘1’ for each char pair:
+
+##################################
+
+using known pairs ‘we’, ‘ee’, ‘eb’, ‘b{’, ‘}w’:
+
+#5######6####7#######8###########T
+
+since the smallest count of ‘1’ is 2:
+
+45######6####7#######8###########T
+
+logic:
+
+4555555566666777777778###########T
+
+the total of the digits of the pair string is double of the total of the single stream:
+
+2323232232424245354335443444535445 -> 117
+4555555566666777777778T -> 143
+
+117 * 2 = 234
+234 - 143 = 91
+
+the rest of the digits, 8s and 9s, must add up to 91:
+
+91 = 8*8 + 9*3
+
+logic:
+
+455555556666677777777888888888999T
+
+write a script to determine possible orders with both lists:
+
+s = 'dehjdqddeazhmbk_f_zllwnmxgnm_c{sn}'
+c = [int(x) for x in '2323232232424245354335443444535445']
+p = [int(x) for x in '455555556666677777777888888888999'] + [10]
+
+def solve(f,n,s,c,p):
+    try:
+        if f[0] != 'w':
+            return []
+        if f[1] != 'e':
+            return []
+        if f[2] != 'e':
+            return []
+        if f[3] != 'b':
+            return []
+        if f[4] != '{':
+            return []
+    except:
+        pass
+    t = p[n]
+    p[n] = 0
+    x = t-c[n]
+    f += s[n]
+    if len(f) == len(s):
+        return [f]
+    elif '}' in f:
+        return []
+    o = []
+    for i in range(len(c)):
+        if c[i] == x and p.index(p[i]) == i and p[i] > 0:
+            o.append(i)
+    a = []
+    for ind in o:
+        a += solve(f,ind,s,c[:],p[:])
+    return a
+    
+o = '\n'.join(solve('',p.index(8),s,c,p))
+f = open('result.txt','w')
+f.write(o)
+f.close()
+
+There will be a ton of potential flags, but all are gibberish. Use an online caesar cipher decoder to determine that you must shift forward by 1. The flag will be the only one that makes sense:
+
+weeb{only_eight_bakemono_remained}
