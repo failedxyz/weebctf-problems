@@ -1,0 +1,1 @@
+The 8 D-Agency spies are playing the Joker Game, and Hatano has sent a secret scrambled message to Jitsui at the table. The message and scrambler are [here](files/joker/contents.zip); determine what it means.
