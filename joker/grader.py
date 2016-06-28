@@ -1,4 +1,4 @@
-flag = “eight_bakemono”
+flag = "only_eight_bakemono_remained"
 
 def grade(autogen, candidate):
 	if candidate.find(flag) >= 0:
