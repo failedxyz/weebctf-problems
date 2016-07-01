@@ -1,0 +1,1 @@
+[「何もわかっていない！」](files/packet-hero/packet-hero.mp3)
