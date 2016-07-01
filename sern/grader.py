@@ -1,4 +1,4 @@
-flag = "gellified_bananas_are_floppy"
+flag = "bananas_ARE_floppy"
 
 def grade(autogen, candidate):
 	if candidate.find(flag) >= 0:

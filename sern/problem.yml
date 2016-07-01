@@ -1,7 +1,7 @@
 title: sern
 author: defund
 category: Reversing
-value: 170
-hint: no!
+value: 140
+hint: the flag is 24 chars; the other 3176 are random letters
 files:
   - contents.zip
