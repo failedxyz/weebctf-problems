@@ -1,6 +1,12 @@
 Solution:
 
-Note: This is a solution to an earlier form of the problem. The basic concept is the same, however the flag is not caesar ciphered. Instead, it is much longer. It is solved by doing the same method below, except there will be multiple possible pair strings to check, and one should use a dictionary to make sure that while generating flags, branches with gibberish automatically stop.
+Note: This is a solution to an earlier form of the problem. 
+The basic concept is the same, however the flag is not caesar 
+ciphered. Instead, it is much longer. It is solved by doing 
+the same method below, except there will be multiple possible 
+pair strings to check, and one should use a dictionary to make 
+sure that while generating flags, branches with gibberish 
+automatically stop.
 
 dehjdqddeazhmbk_f_zllwnmxgnm_c{sn}
 
