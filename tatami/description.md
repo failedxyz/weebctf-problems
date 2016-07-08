@@ -1,0 +1,1 @@
+Unnamed protagonist of Tatami Galaxy has decided to join his university's cryptography club. Apparently, to join the club, one must learn to encode messages using the Lévy C curve. Crack what the protagonist has to say [here](files/tatami/enc).
