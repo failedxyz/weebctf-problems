@@ -1,7 +1,7 @@
 title: tatami
 author: defund
 category: Cryptography
-value: 20
+value: 10
 hint: no!
 files:
   - message.txt
