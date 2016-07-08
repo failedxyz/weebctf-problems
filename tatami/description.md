@@ -1,0 +1,1 @@
+Unnamed protagonist of Tatami Galaxy has decided to join French club. Apparently, to join the club, one must learn to encode your writing in a strange French way. Crack what the protagonist has to say [here](files/tatami/message.txt). As always, submit in weeb{} format.
