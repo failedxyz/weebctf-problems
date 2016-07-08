@@ -1,7 +1,7 @@
 title: tatami
 author: defund
 category: Cryptography
-value: 80
+value: 90
 hint: transposition
 files:
   - enc
