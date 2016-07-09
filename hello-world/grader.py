@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 flag = "こんにちは"
 
 def grade(autogen, candidate):
