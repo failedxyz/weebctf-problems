@@ -1,4 +1,4 @@
-flag = "こんにちは_世界"
+flag = "こんにちは"
 
 def grade(autogen, candidate):
 	if candidate.find(flag) >= 0:
