@@ -1,1 +1,0 @@
-[Milky A Go Go](files/milky-party/milky a go go) [out](files/milky-party/out.txt)
