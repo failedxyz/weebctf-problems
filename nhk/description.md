@@ -1,0 +1,1 @@
+Satou is convinced that this program that he found in the game files of "Ultimate Fantasy" is the key to revealing the NHK for what it really is. Help him decrypt the message [here](files/nhk/contents.zip).
