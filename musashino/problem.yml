@@ -3,3 +3,5 @@ author: defund
 category: Forensics
 value: 60
 hint: no!
+files:
+  - 2200x944.yuv
