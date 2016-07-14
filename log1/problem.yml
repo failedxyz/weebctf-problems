@@ -1,7 +1,7 @@
 title: log1
 author: defund
 category: Cryptography
-value: 1
+value: 70
 hint: log!
 files:
   - log1
