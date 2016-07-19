@@ -1,0 +1,1 @@
+The MyAnimeList weeb developers claim that their newest update fixes and adds more features to their [program](files/mal3/mal3).
