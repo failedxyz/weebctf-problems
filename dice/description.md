@@ -1,0 +1,1 @@
+[dice](files/dice/dice.png)
