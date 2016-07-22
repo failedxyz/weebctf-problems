@@ -72,7 +72,7 @@ class ReusableTCPServer(SocketServer.ForkingMixIn, SocketServer.TCPServer):
   pass
 
 SocketServer.TCPServer.allow_reuse_address = True
-port = os.getenv('port',8080)
+port = os.getenv('port',6004)
 ip = os.getenv('ip','0.0.0.0')
 
 server = ReusableTCPServer(('0.0.0.0', port), incoming)
