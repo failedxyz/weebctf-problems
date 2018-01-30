@@ -1,0 +1,1 @@
+MyAnimeList has decided to create a [program](files/mal1/mal1) for anime reviewers. Rumor has it that they have a secret message for people who have an average rating of 11!

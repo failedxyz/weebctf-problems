@@ -1,6 +1,7 @@
 title: パケットヒーロー (Packet Hero)
 author: mzhang
 category: Forensics
-value: 60
+value: 50
+hint: ring ring
 files:
   - packet-hero.mp3

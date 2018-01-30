@@ -1,0 +1,1 @@
+The Heroes Association wants to know more about Saitama's powers, and they've recovered some [files](https://drive.google.com/file/d/0B2QabAMK7m_gbHlpMnJmRUsyTXc/view?usp=sharing) from the ruins of Doctor Genus's House of Evolution. Help the Association recover what Doctor Genus has researched on Saitama.

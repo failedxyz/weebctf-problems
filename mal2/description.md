@@ -1,0 +1,1 @@
+After the last debacle, MyAnimeList has patched and updated their [program](files/mal2/mal2). Gain OP anime reviewer status once more!
