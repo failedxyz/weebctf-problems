@@ -25,7 +25,7 @@ for i in range(len(text)):
 	r, g, b, a = data[x, y]
 	B = r
 	C = A ^ B
-	im.putpixel((x, y), (C, g, b))
+	im.putpixel((x, y), (r + C, g, b, a))
 
 im = im.transpose(Image.FLIP_LEFT_RIGHT)
 im.save("sos_logo.png", "PNG")

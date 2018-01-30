@@ -1,3 +1,3 @@
-Turns out Konno Yuuki didn't have AIDS, she had [cancer](files/cancer/cancer.json)!
+Turns out Konno Yuuki didn't have AIDS, she had cancer! Doctors extracted [this tumor](files/cancer/cancer.json) from her brain...
 
 Put your answer in the format `array[a_1][a_2][a_3][a_4][...]`.

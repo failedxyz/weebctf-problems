@@ -1,8 +1,8 @@
 import re
 
-N = 520
+N = 10303
 
-a = open("cancer.json").read().replace(" ", "")
+a = open("cancer2.json").read().replace(" ", "")
 a = a.replace(str(N), "xxx")
 a = re.sub(r"\d", "", a)
 a = a.replace("xxx", str(N))
